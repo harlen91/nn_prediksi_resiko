@@ -6,7 +6,7 @@ import pandas as pd
 import plotly.express as px
 from tensorflow.keras.models import load_model
 
-st.set_page_config(page_title="Prediksi Resiko Kesehatan", layout="wide")
+st.set_page_config(page_title="Prediksi Risiko Kesehatan", layout="wide")
 
 
 logging.basicConfig(filename='app_system.log', level=logging.INFO)
